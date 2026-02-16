@@ -2,13 +2,13 @@
 
 Ovaj projekat implementira algoritam za pronalaženje najkraćeg puta između dvije tačke u dijelu Beograda (DATA JE SLIKA U FOLDERU) koristeći podatke sa OpenStreetMap-a (OSM). Program je napisan u C programskom jeziku i koristi Dijkstrin algoritam.
 
-Šta program radi?
+# Šta program radi?
 
-# Učitava mapu: Parsira veliki XML fajl (`map.osm`) koji sadrži podatke o ulicama i objektima u Beogradu.
-# Pretraga po imenu: Omogućava korisniku da unese ime ulice ili objekta (npr. "Vukov spomenik") i pronalazi odgovarajući čvor u grafu.
-# Pametno povezivanje (Snapping): Ako korisnik izabere tačku koja nije direktno na putu (npr. zgrada fakulteta), program automatski pronalazi najbližu tačku na putu kako bi mogao da izračuna putanju.
-# Računanje putanje: Koristi Dijkstrin algoritam da pronađe najkraći put (u metrima) između početne i krajnje tačke.
-# Ispis: Prikazuje ukupnu udaljenost i listu ulica/čvorova kroz koje se prolazi.
+### Učitava mapu: Parsira veliki XML fajl (`map.osm`) koji sadrži podatke o ulicama i objektima u Beogradu.
+### Pretraga po imenu: Omogućava korisniku da unese ime ulice ili objekta (npr. "Vukov spomenik") i pronalazi odgovarajući čvor u grafu.
+### Pametno povezivanje (Snapping): Ako korisnik izabere tačku koja nije direktno na putu (npr. zgrada fakulteta), program automatski pronalazi najbližu tačku na putu kako bi mogao da izračuna putanju.
+### Računanje putanje: Koristi Dijkstrin algoritam da pronađe najkraći put (u metrima) između početne i krajnje tačke.
+### Ispis: Prikazuje ukupnu udaljenost i listu ulica/čvorova kroz koje se prolazi.
 
 ## Razvojni Put:
 
@@ -102,3 +102,4 @@ x86_64-w64-mingw32-gcc.exe -static -o shortest_path.exe main.c model/graph.c ser
 
 Pokretanje:
 .\shortest_path.exe map.osm
+
