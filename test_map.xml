@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="CGImap 0.0.2">
+ <node id="1" lat="44.7991" lon="20.4614" version="1"/>
+ <node id="2" lat="44.8000" lon="20.4620" version="1"/>
+ <node id="3" lat="44.8010" lon="20.4630" version="1"/>
+ <node id="4" lat="44.8020" lon="20.4640" version="1"/>
+ <way id="100" version="1">
+  <nd ref="1"/>
+  <nd ref="2"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Street A"/>
+ </way>
+ <way id="101" version="1">
+  <nd ref="2"/>
+  <nd ref="3"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Street B"/>
+ </way>
+ <way id="102" version="1">
+  <nd ref="3"/>
+  <nd ref="4"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Street C"/>
+ </way>
+ <way id="103" version="1">
+  <nd ref="1"/>
+  <nd ref="3"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Shortcut"/>
+ </way>
+</osm>
+

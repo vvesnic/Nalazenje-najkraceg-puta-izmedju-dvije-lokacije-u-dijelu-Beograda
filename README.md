@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/25344850/README.md)
 ### Pronalaženje najkraćeg puta (Beograd OSM)
 
 Ovaj projekat implementira algoritam za pronalaženje najkraćeg puta između dvije tačke u dijelu Beograda (DATA JE SLIKA U FOLDERU) koristeći podatke sa OpenStreetMap-a (OSM). Program je napisan u C programskom jeziku i koristi Dijkstrin algoritam.
